@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: royalblue;
+}
+
+canvas{
+    animation-name: xyz;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes xyz{
+    0%{box-shadow: 1px 1px 38px red;}
+    20%{box-shadow: 1px 1px 38px orange;}
+    40%{box-shadow: 1px 1px 38px yellow;}
+    60%{box-shadow: 1px 1px 38px green;}
+    70%{box-shadow: 1px 1px 38px royalblue;}
+    85%{box-shadow: 1px 1px 38px indigo;}
+    100%{box-shadow: 1px 1px 38px violet;}
+}
